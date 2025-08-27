@@ -57,5 +57,14 @@ public class Usuario {
     public void setPrestacionesRecibidas(List<Prestacion> prestacionesRecibidas) {
         this.prestacionesRecibidas = prestacionesRecibidas;
     }
+    // Métodos para agregar prestaciones (Sobrecarga - SIA1.6)
+    public void agregarPrestacion(Prestacion prestacion) {
+    this.prestacionesRecibidas.add(prestacion);
+    }
+
+    public void agregarPrestacion(String nombre, String profesional, String detalles) {
+    Prestacion nuevaPrestacion = new Prestacion(nombre, profesional, detalles);
+    this.prestacionesRecibidas.add(nuevaPrestacion);
+    }
 }
 

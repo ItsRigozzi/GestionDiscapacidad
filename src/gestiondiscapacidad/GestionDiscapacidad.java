@@ -1,9 +1,12 @@
-package gestiondiscapacidad;
-
 /**
+ * Clase principal que contiene el menú de consola para interactuar con el sistema.
+ * Permite registrar usuarios, asignar prestaciones y mostrar la información.
  *
- * @author usuario
+ * @author Joaquin
+ * @author Francisco Espinoza
+ * @author Rigoberto
  */
+package gestiondiscapacidad;
 
 import java.util.ArrayList;
 import java.util.List;
