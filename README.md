@@ -34,13 +34,15 @@ Primero, necesitas obtener el código fuente en tu computadora. Tienes dos opcio
     2.  En el menú que se despliega, selecciona `Download ZIP`.
     3.  Guarda el archivo y descomprímelo en una carpeta de tu elección.
 
-* **Opción B: Clonar con Git (Avanzado)**
-    Si tienes Git instalado, puedes clonar el repositorio usando el siguiente comando en tu terminal:
+* **Opción B: Clonar en nNetBeans (Avanzado)**
+    Dentro de NetBeans:
+    1. En el menú superior de NetBeans, haz clic en Team.
+    2. En el menú que se despliega, ve a Git y luego selecciona Clone...
     ```bash
-    git clone [Pega aquí la URL de tu repositorio de GitHub]
+    3. Pega la URL https://github.com/ItsRigozzi/GestionDiscapacidad.git
+    4. continua hasta elegir donde guardarasel proyecto y finalizas
     ```
-
-### Paso 2: Abrir el Proyecto en NetBeans
+### Paso 2 solo si descargas con Zip: Abrir el Proyecto en NetBeans
 
 1.  Inicia Apache NetBeans.
 2.  Ve al menú `File` > `Open Project...`.
