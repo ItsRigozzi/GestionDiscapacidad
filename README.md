@@ -6,9 +6,9 @@ Proyecto de Avance para la asignatura **INF2236 - Programación Avanzada**. Este
 
 ## Autores
 
-* Joaquin
+* Joaquin Alegria
 * Francisco Espinoza
-* Rigoberto
+* Rigoberto Canales
 
 ---
 
